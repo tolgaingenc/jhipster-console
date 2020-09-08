@@ -1,4 +1,8 @@
-# JHipster Console
+# JHipster Console (deprecated)
+
+## Notice
+
+As of JHipster version 7, the JHipster Console is unsupported.
 
 [![Azure DevOps Build Status][azure-devops-image]][azure-devops-url-main] [![Build Status][travis-image]][travis-url] [![Join the chat at https://gitter.im/jhipster/jhipster-console](https://badges.gitter.im/jhipster/jhipster-console.svg)](https://gitter.im/jhipster/jhipster-console?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
