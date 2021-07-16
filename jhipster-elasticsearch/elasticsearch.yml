@@ -3,3 +3,4 @@ cluster.name: "docker-cluster"
 bootstrap.memory_lock: true
 http.host: 0.0.0.0
 transport.host: 127.0.0.1
+#discovery.seed_hosts: ["127.0.0.1"]

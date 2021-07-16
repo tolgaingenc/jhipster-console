@@ -1,6 +1,6 @@
 FROM docker.elastic.co/kibana/kibana-oss:7.9.2
 
-ENV ELASTICSEARCH_URL=http://jhipster-elasticsearch:9200
+ENV ELASTICSEARCH_URL=http://jhipster-elasticsearch.console.svc.cluster.local:9200
 
 COPY kibana.yml /usr/share/kibana/config/kibana.yml
 RUN ./bin/kibana-plugin install https://github.com/sivasamyk/logtrail/releases/download/v0.1.31/logtrail-7.9.2-0.1.31.zip
